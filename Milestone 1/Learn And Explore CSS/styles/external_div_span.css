@@ -1,0 +1,27 @@
+h3{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.b{
+    margin: 20px;
+    border: 15px solid tomato;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px blueviolet;
+}
+
+.incident{
+    border: 2px solid purple;
+}
+
+
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+    /* border: 10px solid tomato;
+    padding: 10px; */
+}

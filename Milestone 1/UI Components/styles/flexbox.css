@@ -2,26 +2,12 @@
     padding: 25px;
     background-color: blanchedalmond;
     display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    height: 350px;
+    align-items: center;
+    flex-direction: row;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -31,6 +17,6 @@
     background: rgb(178, 228, 229);
     padding: 20px;
     font-size: 28px;
-    margin: 10px 0;
+    /* margin: 10px 0; */
     
 }

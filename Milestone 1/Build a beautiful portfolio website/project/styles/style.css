@@ -43,6 +43,11 @@
     color: #757575;
 }
 
+.text-center{
+    text-align: center;
+
+}
+
 /* header */
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -137,4 +142,22 @@ main{
 
 .item-description{
     font-weight: 600;
+}
+
+/* skills styles */
+.skills{
+
+}
+
+.section-title{
+
+}
+
+.section-description{
+
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
 }

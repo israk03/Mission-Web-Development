@@ -1,0 +1,123 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+/* banner */
+
+.banner-section-container{
+    max-width: 100%;
+    height: 650px;
+    /* border: 2px solid red; */
+    background-color: rgba(229, 84, 115, 0.1);
+
+}
+
+.banner-section-content{
+    display: flex;
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    
+
+
+}
+
+.banner-text{
+    width: 50%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-btn{
+    margin-right: 500px;
+    width: 150px;
+    height: 45px;
+    
+    background-color: rgb(229, 84, 115);
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.banner-image{
+    width: 50%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.banner-image img{
+    width: 50%;
+    height: 650px;
+}
+
+/* featured-flower */
+.featured-flower-container{
+    margin: 0 auto;
+    margin-top: 140px;
+    width: 90%;
+    height: 650px;
+    /* border: 2px solid red; */
+
+}
+
+.featured-title{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+}
+
+.featured-images{
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    /* border: 2px solid green; */
+    margin-top: 50px;
+}
+
+.first, .second, .third{
+    width: 33%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 50% 50% 0px 0px;
+    background-color: palevioletred;
+}
+
+.insta-feature{
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 130px;
+}
+
+.insta-text{
+    height: 130px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}

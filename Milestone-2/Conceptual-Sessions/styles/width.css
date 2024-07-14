@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 90vw; /* Use vw for responsive width */
+}
+
+.text-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.min-content-box {
+    width: min-content; /* The box will be as narrow as the longest word or text string */
+}
+
+.max-content-box {
+    width: max-content; /* The box will be as wide as the content inside it */
+}
+
+.fit-content-box {
+    width: fit-content; /* The box will fit the content up to a maximum width */
+}
+
+.image-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 576px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flex Layout with Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200 p-6">
+    <header class="bg-blue-500 text-white p-4 mb-6">
+        <h1 class="text-center text-2xl">Responsive Flex Layout</Ri:a></h1>
+    </header>
+
+    <div class="flex flex-col md:flex-row gap-4">
+        <!-- sidebar -->
+        <div class="bg-white p-4 shadow-md flex-1 md:flex-none md:w-1/4">
+            <h2 class="text-xl font-bold mb-4">Sidebar</h2>
+            <ul class="space-y-2 text-blue-500">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Help</a></li>           
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="bg-white p-4 shadow-md flex-1">
+            <h2 class="text-xl font-bold mb-4">Main Content</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quod numquam ea dignissimos consequatur accusamus dicta assumenda asperiores mollitia! Quas esse animi laborum ratione sint dolore, tenetur inventore, porro voluptatem, exercitationem praesentium. Ipsam eaque dignissimos, consequatur beatae ullam numquam corporis.</p>
+            <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde est excepturi, natus error iste ad illum ipsum quisquam assumenda obcaecati!</p>
+            
+        </div>
+
+        <!-- additional content -->
+        <div class="bg-white p-4 shadow-md flex-1 md:flex-none md:w-1/4">
+            <h2 class="text-xl font-bold mb-4">Additional Content</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita magnam quisquam doloribus dolorum aspernatur delectus officia voluptate repellat esse deserunt minus laboriosam illum unde inventore, in asperiores ut quis earum.</p>
+        </div>
+    </div>
+
+    <footer class="bg-blue-500 text-white text-center p-4 mt-6">
+        <p>&copy; Responsive Flex Layout</p>
+    </footer>
+</body>
+</html>

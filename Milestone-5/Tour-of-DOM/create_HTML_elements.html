@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    </style>
+
+
+</head>
+<body>
+
+    <h1>Create and Append Elements with JS.</h1>
+
+    <div id="container">
+        <p>This is the existing content inside the container.</p>
+    </div>
+
+
+    <script>
+        // get the container where new elements will be append
+        const container = document.getElementById("container");
+
+        // create a new div element
+        const newDiv = document.createElement("Div");
+        newDiv.className = "dynamic-div";
+
+        // create a new heading element
+        const newHeading = document.createElement("h2");
+        newHeading.textContent = "This is the dynamically created heading.";
+
+        // create a new p element
+        const newPara = document.createElement("p");
+        newPara.textContent = "This para was added using JS.";
+
+        // append the elements to the new Div
+        newDiv.appendChild(newHeading);
+        newDiv.appendChild(newPara);
+
+        // append the new div to the container in the DOM
+        container.appendChild(newDiv);
+
+    </script>
+</body>
+</html>

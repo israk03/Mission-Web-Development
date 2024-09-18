@@ -6,10 +6,44 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!-- basic event -->
     <h1>This is Events headline.</h1>
     <button onclick="console.log(7)">Click Me</button>
     <button onclick="console.log('I am clicking more.')">More Click Me</button>
+    <br>
+    <!-- 26-2 Add onclick handler directly or via javascript -->
+    <h1>Add onclick handler directly or via javascript</h1>
 
-    <script src="js/index_event.js"></script>
+    <!-- option 1 -->
+    <button onclick="document.body.style.backgroundColor='Yellow'">Make Yellow</button>
+
+    <!-- option 2 -->
+    <button onclick="makeRed()">Make Red</button>
+
+    <!-- option 3 (a) -->
+    <button id="make-blue">Make Blue</button>
+
+    <!-- option 3(b) -->
+    <button id="make-purple">Make Purple</button>
+    <br>
+
+    <!-- 26-3 Different ways to use addEventListener on a button -->
+    <h1>Different ways to use addEventListener on a button</h1>
+
+    <!-- option 4 (a) -->
+    <button id="make-pink">Make Pink</button>
+
+    <!-- option 4 (b) -->
+     <button id="make-green">Make Green</button>
+
+    <!-- FINAAAAAAAAAAL -->
+     <button id="make-orange">Make Orange</button>
+
+    <script src="./js/index_event.js"></script>
+    <script>
+        
+    </script>
+
 </body>
 </html>

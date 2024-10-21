@@ -10,8 +10,15 @@ export default function Counter(){
     }
 
     const handleReduce = () => {
-        const newCount = count - 1;
-        setCount(newCount);
+        if(count > 0){
+
+            const newCount = count - 1;
+
+
+            setCount(newCount);
+        }
+
+        
     }
 
 
